@@ -280,6 +280,7 @@ form div button:hover {
         display: flex;
         justify-content: space-between;
         margin-right: 20px;
+        margin-left: 20px
     }
 
     .main-navbar ul {
@@ -288,6 +289,7 @@ form div button:hover {
 
     .foot-title {
         font-size: 14px;
+        margin-bottom: 5px;
     }
 
 
@@ -374,9 +376,11 @@ form div button:hover {
     0% {
         transform: rotateZ(0deg);
     }
+
     50% {
         transform: rotateZ(-45deg);
     }
+
     100% {
         transform: rotateZ(-90deg);
     }
