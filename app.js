@@ -6,9 +6,10 @@ const app = express();
 const path = require('path');
 
 
-// configuracion
+// configuracion - //Middleware
 
 app.use(express.static('public')); //llamar la carpeta public
+app.set('port', process.env.PORT || 3000); //crear un objeto port
 
 // rutas
 
@@ -27,6 +28,6 @@ app.get('/login', (request, response) => {
 
 // Levantar el servidor
 
-app.listen(3000, () => {
-    console.log('Server Running');
+app.listen(app.get('port'), () => {
+    console.log(`Server Running on port ${app.get('port')}`);
 })
