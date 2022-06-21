@@ -172,8 +172,9 @@ main section article i {
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
-    top: -15px;
+    right: 18px;
+    top: 0;
+    z-index: 1;
 }
 
 .main-navbar ul {
