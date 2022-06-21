@@ -273,6 +273,7 @@ form div button:hover {
 
     .nombre {
         display: block;
+        opacity: 1;
     }
 
     .main-navbar {
